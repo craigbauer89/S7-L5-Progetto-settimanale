@@ -5,7 +5,7 @@
     "firstName": "John",
     "lastName": "Doe",
     "gender": "Male",
-    "profileURL": "img/male.png",
+    "profileURL": "img/lumber.jpg",
     "email": "john.doe@example.com"
   },
   {
@@ -14,7 +14,7 @@
     "firstName": "Mary",
     "lastName": "Smith",
     "gender": "Female",
-    "profileURL": "img/female.png",
+    "profileURL": "img/leaf.jpg",
     "email": "jane.doe@example.com"
   },
   {
@@ -23,7 +23,7 @@
     "firstName": "Tim",
     "lastName": "Cook",
     "gender": "Male",
-    "profileURL": "img/female.png",
+    "profileURL": "img/details.jpg",
     "email": "jim.dean@example.com"
   }
 ]
