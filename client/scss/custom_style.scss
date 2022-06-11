@@ -30,6 +30,7 @@ h1 {
 .box {
     margin: 0 auto;
     display: flex;
+    height: 500px;
     // justify-content: space-between;
 }
 
@@ -48,6 +49,7 @@ h1 {
 
 .container2 {
     
+    position: relative;
     // display: flex;
     width: 50%;
     
@@ -58,10 +60,12 @@ h1 {
     }
 
     .col {
+        position: absolute;
+        top:-110px;
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
-        height: 100%;
+        
         
         
     }
