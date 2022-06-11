@@ -101,8 +101,8 @@ function details(id) {
                         newEL_id = parseInt(element.id);
                         
                         if (id === newEL_id) {
-                            let card = document.createElement('div'+id);
-                             card.innerHTML = //`
+                            // let card = document.createElement('div'+id);
+                             list.innerHTML = //`
                             //         <h2>${element.firstName} ${element.lastName} Details</h2>
                             //         <p>Gender: ${element.gender}</p>
                             //         <p>Username: ${element.username}</p>
@@ -122,7 +122,7 @@ function details(id) {
                                         </div>
                                     </div>
                                     `
-                            list.appendChild(card);
+                            // list.appendChild(card);
                         }
                     
             });
@@ -134,12 +134,12 @@ function details(id) {
 
 function removeUser(id) {
     
-        let list = document.querySelector('.container2 div'+id);
+        let list = document.querySelector('.container2');
             while (list.hasChildNodes()) {  
                 list.removeChild(list.firstChild);
             
             }
-            list.remove();
+            
     
 
 }
