@@ -1,0 +1,39 @@
+.box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-color: white
+}
+
+.container {
+    padding: 15%;
+    width: 25%;
+    background-color: rgb(64, 64, 117);
+    color: white;
+}
+
+.container2 {
+    padding-top: 10%;
+    font-size: 2rem;
+    text-align: center;
+    width: 50%;
+    background-color:grey;
+    color: black;
+}
+
+.container2 {
+    padding-top: 10%;
+    font-size: 2rem;
+    text-align: center;
+    width: 50%;
+    background-color:grey;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
