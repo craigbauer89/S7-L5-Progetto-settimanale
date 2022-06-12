@@ -18722,6 +18722,10 @@ body {
   border-color: black;
 }
 
+h5, .h5, p {
+  text-align: center;
+}
+
 .btn {
   margin: 0 15%;
   width: 70%;
@@ -18742,6 +18746,12 @@ h1, .h1 {
   height: 500px;
 }
 
+@media screen and (max-width: 1200px) {
+  .box {
+    height: 1000px;
+  }
+}
+
 .container {
   width: 50%;
 }
@@ -18749,6 +18759,17 @@ h1, .h1 {
 .container .btn:hover {
   color: white;
   background-color: #198754;
+}
+
+@media screen and (max-width: 1200px) {
+  .container .card {
+    width: 70%;
+  }
+}
+
+.container .card .card-img-top {
+  width: 50%;
+  margin: 0 25%;
 }
 
 .container2 {

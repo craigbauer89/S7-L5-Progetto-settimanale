@@ -34,22 +34,14 @@ function userlist(users) {
         users.forEach(element => {
             let card = document.createElement('div');
             card.innerHTML = 
-                            // `
-                            // <img src='img/person.png'>
-                            // <h2>${element.firstName} ${element.lastName}</h2>
-                            // <p>${element.email}</p>
-                            
-                            // <td><button type="button" onclick="details(${element.id})" class="btn btn-outline-danger btn-sm">More Details</button></td>
-                            // <div class="container${element.username}"><div>
-                            // `
                             `
                             <div class="col">
                                 <div class="card">
-                                    <img src="img/person.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">${element.firstName} ${element.lastName}</h5>
-                                        <p class="card-text">${element.email}</p>
-                                        <button type="button" onclick="details(${element.id})" class="btn btn-sm">More Details</button>
+                                        <img src="img/person.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">${element.firstName} ${element.lastName}</h5>
+                                            <p class="card-text">${element.email}</p>
+                                            <button type="button" onclick="details(${element.id})" class="btn btn-sm">More Details</button>
                                     </div>
                                 </div>
                             </div>
@@ -61,35 +53,6 @@ function userlist(users) {
         
 }
 
-
-// function details(id) {
-//     let user_id = id;
-//     fetch('users.json').then(response => response.json()).then(data => {
-                        
-//                         moredetails(data,user_id);
-//                     })
-// }
- 
-//  function moredetails(users, id) {
-    
-//     let list = document.querySelector('.container2');
-//         users.forEach(element => {
-//                 newEL_id = parseInt(element.id);
-                
-//                 if (id === newEL_id) {
-//                     let card = document.createElement('div');
-//                     card.innerHTML = `
-//                             <p>${element.gender}</p>
-//                             <p>${element.username}</p>
-//                             <td><button type="button" onclick="removeUser(${element.id})" class="btn btn-outline-danger btn-sm">X</button></td>
-//                             `
-//                     list.appendChild(card);
-//                 }
-            
-            
-//     });
-
-// }
 
 
 function details(id) {
@@ -115,7 +78,7 @@ function details(id) {
                                             <div class="card-body">
                                                 <h5 class="card-title">${element.firstName} ${element.lastName}</h5>
                                                 <p class="card-text">Gender: ${element.gender}</p>
-                                                <p class="card-text">$Email: ${element.email}</p>
+                                                <p class="card-text">Email: ${element.email}</p>
                                                 <p class="card-text">Username: ${element.username}</p>
                                                 <button type="button" onclick="removeUser(${element.id})" class="btn  btn-sm">Clear</button>
                                             </div>
