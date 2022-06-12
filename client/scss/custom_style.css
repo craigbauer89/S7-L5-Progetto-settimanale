@@ -18710,6 +18710,14 @@ fieldset:disabled .btn {
   content: "";
 }
 
+.nav-link:hover {
+  color: #a4a4c1;
+}
+
+.nav-link {
+  color: white;
+}
+
 body {
   background-color: #a4a4c1;
 }
